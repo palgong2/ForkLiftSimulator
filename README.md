@@ -2,7 +2,7 @@
 **VR을 이용하여 개발한 지게차 시뮬레이터입니다**  
 
 자세한 내용, 사진, 그리고 플레이 영상은 아래 링크를 통해 확인할 수 있습니다.
-## 📌 [PPT(Canva) 바로가기](https://www.canva.com/design/DAGcD0igoWU/2fEN4gZ7ayxXUdXio0dNWw/edit?utm_content=DAGcD0igoWU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)  
+##  [PPT(Canva) 바로가기](https://www.canva.com/design/DAGcD0igoWU/2fEN4gZ7ayxXUdXio0dNWw/edit?utm_content=DAGcD0igoWU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)  
 
 ---
 
@@ -25,15 +25,15 @@
 
 ---
 
-## 🎮 스테이지 소개  
+##  스테이지 소개  
 
 ### 1️⃣ 메인 메뉴  
-🛠️ **스테이지 선택**  
+ **스테이지 선택**  
 - 해당하는 스테이지에 **레이저 포인터**를 위치시키고 **트리거 버튼**을 누르면 해당 스테이지로 이동합니다.  
 - 지게차 시뮬레이터는 **VR 모드**와 **키보드 모드**, **총 두 가지 모드**가 있습니다.  
   - 원하는 모드를 선택하여 스테이지에 진입할 수 있습니다.  
 
-🛑 **게임 종료**  
+ **게임 종료**  
 - 종료 버튼을 누르면 게임이 종료됩니다.  
 
 ![메인 메뉴](https://github.com/user-attachments/assets/12a15449-4788-4e65-8189-c874438fef76)  
@@ -41,11 +41,11 @@
 ---
 
 ### 2️⃣ 튜토리얼  
-📖 **기본 조작법 학습**  
+ **기본 조작법 학습**  
 - 컨트롤러의 기초 기능을 소개합니다.  
 - 지게차 조작에 필요한 **레버 및 조작법**을 설명합니다.  
 
-🕹️ **튜토리얼 화면 예시**  
+ **튜토리얼 화면 예시**  
 
 ![튜토리얼1](https://github.com/user-attachments/assets/4415d4c8-78dc-430f-839a-9d052980596d)  
 ![튜토리얼2](https://github.com/user-attachments/assets/1141c378-df82-46b0-bc7d-872fd0764e35)  
@@ -53,27 +53,27 @@
 
 ---
 
-### 3️⃣ 지게차 연습 스테이지 🚧  
-🔧 **자유 연습**  
+### 3️⃣ 지게차 연습 스테이지 
+ **자유 연습**  
 - 사용자가 자유롭게 연습할 수 있는 스테이지입니다.  
 - 다양한 작업 환경을 체험하며 **지게차 조작 능력을 익힐 수 있습니다.**  
 
 ![연습 스테이지](https://github.com/user-attachments/assets/5b1b79ec-9a1e-45da-be54-06e09ec92716)  
 ![연습 화면](https://github.com/user-attachments/assets/52fbc11b-2c9a-444b-baa7-e49d6a468af4)  
 
-📦 **트럭 하차 및 상차 구현**  
+ **트럭 하차 및 상차 구현**  
 - **Lift 레버**를 사용하여 **Pallet 위치를 조정**하며 하차 작업을 수행합니다.  
 - **지게차 방향을 신중히 조절**하여 상차 작업을 진행합니다.  
 
 ![트럭 상차](https://github.com/user-attachments/assets/1e8c6c35-1d82-4686-9589-b3021d73ddf0)  
 
-🛑 **쌓여있는 Pallet 조작**  
+ **쌓여있는 Pallet 조작**  
 - 여러 개의 Pallet이 쌓여있는 상태를 구현하여 **하역 훈련**이 가능합니다.  
 - 물건이 **떨어지지 않도록 주의하며** 작업해야 합니다.  
 
 ![Pallet 조작](https://github.com/user-attachments/assets/3de62b6c-a31c-4a54-a522-a0cb6c7aea14)  
 
-🚜 **후진 이동 훈련**  
+ **후진 이동 훈련**  
 - 앞이 보이지 않는 상황을 연출하여 **후진 이동 시뮬레이션**을 진행합니다.  
 - **안전한 후진 운전 방법**을 익힐 수 있습니다.  
 
@@ -98,7 +98,7 @@
 ---
 
 ### 2️⃣ 지게차 디테일 개선  
-#### 🔊 지게차 작동 소리 구현  
+####  지게차 작동 소리 구현  
 - 이동 시 나는 소리.  
 - 각 레버 조작 시 나는 소리.  
   - 현재 햅틱 진동을 통해 조작 진행 상황을 전달하지만,  
@@ -106,7 +106,7 @@
 - 리프트 실린더 & 틸트 실린더 작동음 추가.  
 - 지게차 후진 시 경고음 추가.  
 
-#### 🚥 방향지시등 구현  
+####  방향지시등 구현  
 - 레버 조작 방식  
   - 레버 아래로 내리면 좌측 방향지시등 ON,  
   - 레버 위로 올리면 우측 방향지시등 ON.  
